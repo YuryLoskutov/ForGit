@@ -17,12 +17,12 @@ public class FirstTest {
     }
 
     @Test
-    void assertFailTest() {
+    void assertFailaTest() {
         fail();
     }
 
     @Test
-    void assertFailaTest() {
+    void assertFailTest() {
         fail("another fail!");
     }
 
