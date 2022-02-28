@@ -1,6 +1,7 @@
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.fail;
 
 public class FirstTest {
 
@@ -13,5 +14,10 @@ public class FirstTest {
     @Test
     void assertFalseTest() {
         assertTrue(2 > 3);
+    }
+
+    @Test
+    void assertFailTest() {
+        fail();
     }
 }
