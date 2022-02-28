@@ -17,7 +17,7 @@ public class FirstTest {
     }
 
     @Test
-    void assertFailTest() {
+    void assertFailaTest() {
         fail("another fail!");
     }
 
