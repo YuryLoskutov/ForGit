@@ -6,7 +6,7 @@ public class FirstTest {
 
     @Test
     void assertTrueTest() {
-        assertTrue(3 > 2);
+        assertTrue(3 > 0);
     }
 
     @Test
