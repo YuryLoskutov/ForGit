@@ -18,6 +18,11 @@ public class FirstTest {
 
     @Test
     void assertFailaTest() {
+        fail();
+    }
+
+    @Test
+    void assertFailTest() {
         fail("another fail!");
     }
 
